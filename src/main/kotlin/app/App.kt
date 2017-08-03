@@ -1,9 +1,9 @@
 package app
 
-import debugger.DHelper
+import api.debugger.DHelper
 import model.Group
 import model.Student
-import model.sql.DBUtil
+import api.sql.DBUtil
 
 /**
  * @author kamontat

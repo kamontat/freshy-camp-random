@@ -1,6 +1,6 @@
 package main
 
-import debugger.Constants
+import api.debugger.Constants
 import ui.MainPage
 import java.awt.Window
 
@@ -11,6 +11,5 @@ import java.awt.Window
  */
 fun main(args: Array<String>) {
     Constants.debug = false
-
     MainPage.run(null as Window?)
 }

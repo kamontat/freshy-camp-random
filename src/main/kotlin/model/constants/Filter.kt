@@ -9,16 +9,16 @@ import model.Student
  */
 enum class Filter(val func: (Student) -> Boolean) {
     SEX_F({
-        it.sex == model.Sex.FEMALE
+        it.sex == Sex.FEMALE
     }),
     SEX_M({
-        it.sex == model.Sex.MALE
+        it.sex == Sex.MALE
     }),
     DEPARTMENT_SKE({
-        it.department == model.Department.SKE
+        it.department == Department.SKE
     }),
     DEPARTMENT_CPE({
-        it.department == model.Department.CPE
+        it.department == Department.CPE
     }),
     VISIBILITY_TRUE({
         it.visibility

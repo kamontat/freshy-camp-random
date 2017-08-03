@@ -1,5 +1,7 @@
 package model
 
+import model.constants.Department
+import model.constants.Sex
 import java.sql.ResultSet
 import java.util.*
 

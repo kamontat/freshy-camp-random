@@ -1,6 +1,8 @@
 package model
 
+import model.constants.Department
 import model.constants.Filter
+import model.constants.Sex
 import java.util.*
 
 /**

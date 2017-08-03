@@ -1,6 +1,6 @@
-package model.sql
+package api.sql
 
-import debugger.DHelper
+import api.debugger.DHelper
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.ResultSet

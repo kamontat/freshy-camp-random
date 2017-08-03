@@ -1,4 +1,4 @@
-package model.sql
+package api.sql
 
 /**
  * @param default use in create only

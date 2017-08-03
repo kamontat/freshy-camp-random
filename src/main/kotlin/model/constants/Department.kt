@@ -1,4 +1,4 @@
-package model
+package model.constants
 
 import java.util.*
 
