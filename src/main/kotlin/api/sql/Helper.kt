@@ -1,6 +1,7 @@
 package api.sql
 
 import api.debugger.DHelper
+import model.sql.Column
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.ResultSet

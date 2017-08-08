@@ -61,13 +61,13 @@ object GPool {
         }
     }
 
-    fun _add(group: Group, student: Student): Group {
+    private fun _add(group: Group, student: Student): Group {
         map[group]!!.add(student)
         student.group = group
         return group
     }
 
-    fun getMinimumPersonNumber(): Array<Group> {
+    private fun getMinimumPersonNumber(): Array<Group> {
         val arr = ArrayList<Group>()
         var min: Pair<Group, SPool>? = null
 
@@ -93,7 +93,7 @@ object GPool {
         return arr.toTypedArray()
     }
 
-    fun getDepartment(student: Student): Array<Group> {
+    private fun getDepartment(student: Student): Array<Group> {
         val arr = ArrayList<Group>()
         var diff: Int = map.values.toTypedArray()[0].getNumberDep();
 
@@ -129,7 +129,7 @@ object GPool {
         return arr.toTypedArray()
     }
 
-    fun getSex(student: Student): Array<Group> {
+    private fun getSex(student: Student): Array<Group> {
         val arr = ArrayList<Group>()
         var diff: Int = Math.abs(map.values.toTypedArray()[0].getNumberSex());
 

@@ -5,6 +5,7 @@ import model.GPool
 import model.Group
 import model.SPool
 import model.Student
+import model.sql.Column
 import java.io.File
 import java.nio.file.Paths
 import java.sql.ResultSet
